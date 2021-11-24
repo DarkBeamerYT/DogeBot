@@ -16,7 +16,7 @@ const fetch = require("node-fetch");
 const moment = require("moment-timezone");
 blocked = [];
 const { color } = require('./lib/color')
-const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss");
+const time2 = moment().tz("Asia/Kuching").format("HH:mm:ss");
     if (time2 < "24:59:00") {
       var ucapanWaktu = "Good night";
     }
@@ -48,10 +48,10 @@ const runtime = function (seconds) {
   return dDisplay + hDisplay + mDisplay + sDisplay;
 };
 fakenomor = '0@s.whatsapp.net'
-const gcrevoke = ["911234567890-1621430788@g.us"]
+const gcrevoke = ["60197588090-1621430788@g.us"]
 prefix = '#'
 shp = '⬡'
-owner = "911234567890@s.whatsapp.net"
+owner = "60197588090@s.whatsapp.net"
 spc1 = '         '
 spc2 = '\n                           '
 spc3 = '                   '
